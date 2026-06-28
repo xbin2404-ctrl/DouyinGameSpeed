@@ -8,7 +8,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
 public class MainHook implements IXposedHookLoadPackage {
 
-    private static final float SPEED = 2.0f;
+    private static final float SPEED = 15.0f;
 
     // 记录模块加载时的真实时间作为基准
     private static final long T0_REAL = System.currentTimeMillis();
